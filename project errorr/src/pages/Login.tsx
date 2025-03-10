@@ -44,7 +44,7 @@ export const Login: React.FC<{ onNavigate: (page: string) => void }> = ({ onNavi
           </div>
         )}
         <Button type="submit" isLoading={isLoading}>
-          Sign In
+          sign In
         </Button>
       </form>
       <div className="mt-4 text-center text-sm">
@@ -52,11 +52,11 @@ export const Login: React.FC<{ onNavigate: (page: string) => void }> = ({ onNavi
           onClick={() => onNavigate('forgot-password')}
           className="text-blue-600 hover:underline"
         >
-          Forgot Password?
+          Are you Forgot Password?
         </button>
       </div>
       <div className="mt-4 text-center text-sm">
-        Don't have an account?{' '}
+        Create new account?{' '}
         <button
           onClick={() => onNavigate('signup')}
           className="text-blue-600 hover:underline"

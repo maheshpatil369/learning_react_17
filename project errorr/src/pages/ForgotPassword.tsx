@@ -37,7 +37,7 @@ export const ForgotPassword: React.FC<{ onNavigate: (page: string) => void }> = 
       ) : (
         <div className="text-center">
           <p className="text-green-600 mb-4">
-            Password reset instructions have been sent to your email!
+            Password reset instructions have been sent to your registered email!
           </p>
           <Button variant="secondary" onClick={() => onNavigate('login')}>
             Back to Login
