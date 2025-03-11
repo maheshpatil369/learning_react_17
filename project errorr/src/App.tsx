@@ -9,8 +9,6 @@ function App() {
   const renderPage = () => {
     switch (currentPage) {
       case 'login':
-
-      
         return <Login onNavigate={setCurrentPage} />;
       case 'signup':
         return <Signup onNavigate={setCurrentPage} />;
