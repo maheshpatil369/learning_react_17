@@ -13,8 +13,8 @@ export const Button: React.FC<ButtonProps> = ({
 }) => {
   const baseStyles = "w-full py-2 px-4 rounded-md font-medium transition-all duration-200 transform hover:scale-[1.02] disabled:opacity-50";
   const variants = {
-    primary: "bg-blue-550 text-white hover:bg-blue-650",
-    secondary: "bg-gray-xxx200 text-gray-700 hover:bg-gray-300"
+    primary: "bg-blue-600 text-white hover:bg-blue-700",
+    secondary: "bg-gray-xxx200 text-gray-800 hover:bg-gray-300"
   };
 
   return (
