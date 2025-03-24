@@ -13,7 +13,7 @@ export const ForgotPassword: React.FC<{ onNavigate: (page: string) => void }> = 
     setIsLoading(true);
     await new Promise(resolve => setTimeout(resolve, 1000));
     setIsLoading(false);
-    setSubmitted(true);
+    setSubmitted(false);
   };
 
   return (
@@ -37,7 +37,7 @@ export const ForgotPassword: React.FC<{ onNavigate: (page: string) => void }> = 
       ) : (
         <div className="text-center">
           <p className="text-green-600 mb-4">
-            Password reset instructions have been sent to your registered email!
+            Password reset instructions have been sent to your registered email! Your Password is 'Password'😊
           </p>
           <Button variant="secondary" onClick={() => onNavigate('login')}>
             Back to Login
