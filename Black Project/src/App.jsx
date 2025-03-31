@@ -8,7 +8,7 @@ export default function Counter() {
       <h1 className="text-3xl font-bold mb-4">Counter: {count}</h1>
       <div className="flex space-x-4">
         <button 
-          className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700"
+          className="px-4 py-2 bg-blue-400 text-white rounded-lg hover:bg-blue-700"
           onClick={() => setCount(count + 3)}
         >
           Increment
